@@ -1,0 +1,141 @@
+body {
+  background: #333;
+  color: #fff;
+  font-family: "Open Sans";
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Merriweather";
+}
+
+p,
+h4,
+h5,
+h6 {
+  font-family: "Open Sans";
+}
+
+.navbar {
+  opacity: 0.8;
+}
+
+/*Home Page*/
+#home-section {
+  background: url(../img/laptop-plant-on-desk.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 900px;
+}
+
+#home-section .dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 900px;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+#home-section .display-5 {
+  font-size: 2rem;
+  color: #dce4ef;
+  padding-top: 10rem;
+}
+
+@media (min-width: 768px) {
+  #home-section .display-5 {
+    padding-left: 30rem;
+    padding-top: 5rem;
+    width: 160%;
+  }
+}
+
+.slogan {
+  color: #dce4ef;
+  font-size: 1.2rem;
+  padding-top: 2rem;
+}
+
+@media (min-width: 768px) {
+  .slogan {
+    padding-top: 2rem;
+    padding-left: 30rem;
+    width: 160%;
+  }
+}
+
+.intro-text-designs {
+  font-family: "Inconsolata";
+  font-weight: bold;
+  color: #df6d75;
+}
+
+#home-section .home-inner {
+  padding-top: 150px;
+}
+
+/*About Page*/
+
+#about-section {
+  background: url(../img/About-page-image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 800px;
+}
+
+#about-section .dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 800px;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+#about-section .display-5 {
+  font-size: 2rem;
+  color: #dce4ef;
+  padding-top: 10rem;
+}
+
+@media (min-width: 768px) {
+  #about-section .display-5 {
+    line-height: 2.5rem;
+  }
+}
+
+.about-picture-description {
+  text-align: center;
+}
+
+.picture-caption {
+  text-align: center;
+}
+
+#about .col {
+  width: 50%;
+}
+
+/*FUSE CASE STUDY*/
+
+#fuse-case-study-section .row {
+  margin-top: 5rem;
+}
+
+#overview {
+  background-color: rgb(147, 199, 202);
+  border-top: #333 solid 1px;
+}
+
+#discovery-and-research h1 {
+  font-family: "Merriweather";
+}
+/*footer*/
+
+#main-footer .list-inline-item {
+  size: 2rem;
+}
