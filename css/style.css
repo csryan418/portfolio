@@ -27,6 +27,7 @@ h6 {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  background-position: center;
   min-height: 900px;
 }
 
@@ -40,14 +41,15 @@ h6 {
 }
 
 #home-section .display-5 {
-  font-size: 2rem;
+  font-size: 1.8rem;
   color: #dce4ef;
-  padding-top: 10rem;
+  padding-top: 7rem;
+  padding-left: 1rem;
 }
 
 @media (min-width: 768px) {
   #home-section .display-5 {
-    padding-left: 30rem;
+    padding-left: 25rem;
     padding-top: 5rem;
     width: 160%;
   }
@@ -57,12 +59,13 @@ h6 {
   color: #dce4ef;
   font-size: 1.2rem;
   padding-top: 2rem;
+  padding-left: 1rem;
 }
 
 @media (min-width: 768px) {
   .slogan {
     padding-top: 2rem;
-    padding-left: 30rem;
+    padding-left: 25rem;
     width: 160%;
   }
 }
@@ -84,6 +87,7 @@ h6 {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  background-position: center;
   min-height: 800px;
 }
 
@@ -98,7 +102,7 @@ h6 {
 
 #about-section .display-5 {
   font-size: 2rem;
-  color: #dce4ef;
+  color: #cbd3dd;
   padding-top: 10rem;
 }
 
@@ -134,6 +138,25 @@ h6 {
 #discovery-and-research h1 {
   font-family: "Merriweather";
 }
+
+#information-architecture .user-flows {
+  background-image: url(../img/Background-image-user_flows.png);
+  background-repeat: repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#information-architecture .user-flow-border {
+  background-color: #fff;
+}
+
+#information-architecture .wireframes {
+  background-image: url(../img/wireframe-bg-img-75o.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
 /*footer*/
 
 #main-footer .list-inline-item {
