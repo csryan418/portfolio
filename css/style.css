@@ -23,7 +23,7 @@ h6 {
 
 /*Home Page*/
 #home-section {
-  background: url(../img/laptop-plant-on-desk.jpg);
+  background: url(../img/bg-laptop-left.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -37,7 +37,7 @@ h6 {
   left: 0;
   width: 100%;
   min-height: 900px;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.2);
 }
 
 #home-section .display-5 {
@@ -159,6 +159,6 @@ h6 {
 
 /*footer*/
 
-#main-footer .list-inline-item {
-  size: 2rem;
+#main-footer i {
+  font-size: 2rem;
 }
