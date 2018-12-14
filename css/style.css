@@ -1,13 +1,13 @@
 body {
   background: #333;
   color: #fff;
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
 }
 
 h1,
 h2,
 h3 {
-  font-family: "Merriweather";
+  font-family: "Merriweather", serif;
 }
 
 p,
