@@ -27,20 +27,19 @@ h6 {
   background-repeat: no-repeat;
   background-size: 100% auto;
   background-attachment: fixed;
-  background-position: center;
-  min-height: 900px;
+  background-position: top;
+  min-height: 300px;
 }
 
-/*@media (min-width: 900px) {
+@media (min-width: 600px) {
   #home-section {
-    background: url(../img/Bg-Laptop.svg);
     background-repeat: no-repeat;
     background-size: 100% auto;
     background-attachment: fixed;
     background-position: center;
     min-height: 900px;
   }
-}*/
+}
 
 #home-section .dark-overlay {
   position: absolute;
