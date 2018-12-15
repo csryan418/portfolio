@@ -23,7 +23,7 @@ h6 {
 
 /*Home Page*/
 #home-section {
-  background: url(../img/Mobile-size-Laptop.svg);
+  background: url(../img/Laptop-2.jpg);
   background-repeat: no-repeat;
   background-size: 100% auto;
   background-attachment: fixed;
@@ -46,8 +46,14 @@ h6 {
   top: 0;
   left: 0;
   width: 100%;
-  min-height: 900px;
+  min-height: 300px;
   background: rgba(0, 0, 0, 0.2);
+}
+
+@media (min-width: 600px) {
+  #home-section .dark-overlay {
+    min-height: 900px;
+  }
 }
 
 #home-section .display-5 {
