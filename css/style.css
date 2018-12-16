@@ -27,7 +27,6 @@ h6 {
   background-repeat: no-repeat;
   background-size: 100% auto;
   background-attachment: fixed;
-  background-position: top;
   min-height: 300px;
 }
 
@@ -36,8 +35,16 @@ h6 {
     background-repeat: no-repeat;
     background-size: 100% auto;
     background-attachment: fixed;
-    background-position: center bottom;
+    background-position: center;
     min-height: 900px;
+  }
+}
+@media (max-width: 767px) {
+  #home-section {
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-attachment: fixed;
+    min-height: 260px;
   }
 }
 
@@ -46,7 +53,7 @@ h6 {
   top: 0;
   left: 0;
   width: 100%;
-  min-height: 300px;
+  min-height: 260px;
   background: rgba(0, 0, 0, 0.2);
 }
 
@@ -54,46 +61,6 @@ h6 {
   #home-section .dark-overlay {
     min-height: 900px;
   }
-}
-
-#home-section .display-5 {
-  font-size: 1.8rem;
-  color: #dce4ef;
-  padding-top: 7rem;
-  padding-left: 1rem;
-}
-
-@media (min-width: 768px) {
-  #home-section .display-5 {
-    padding-left: 25rem;
-    padding-top: 5rem;
-    width: 160%;
-  }
-}
-
-.slogan {
-  color: #dce4ef;
-  font-size: 1.2rem;
-  padding-top: 2rem;
-  padding-left: 1rem;
-}
-
-@media (min-width: 768px) {
-  .slogan {
-    padding-top: 2rem;
-    padding-left: 25rem;
-    width: 160%;
-  }
-}
-
-.intro-text-designs {
-  font-family: "Inconsolata";
-  font-weight: bold;
-  color: #df6d75;
-}
-
-#home-section .home-inner {
-  padding-top: 150px;
 }
 
 /*About Page*/
