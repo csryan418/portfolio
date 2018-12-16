@@ -31,7 +31,7 @@ h6 {
   min-height: 300px;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 768px) {
   #home-section {
     background-repeat: no-repeat;
     background-size: 100% auto;
@@ -50,7 +50,7 @@ h6 {
   background: rgba(0, 0, 0, 0.2);
 }
 
-@media (min-width: 600px) {
+@media (min-width: 768px) {
   #home-section .dark-overlay {
     min-height: 900px;
   }
