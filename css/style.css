@@ -23,7 +23,7 @@ h6 {
 
 /*Home Page*/
 #home-section {
-  background: url(../img/desktop-screen-425.jpg);
+  background: url(../img/Bg-img-squashed.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
   background-attachment: fixed;
@@ -32,12 +32,75 @@ h6 {
 
 @media (min-width: 768px) {
   #home-section {
-    background: url(../img/Desktop-2.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-attachment: fixed;
     background-position: center;
     min-height: 900px;
+  }
+}
+
+#home-section .dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 300px;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+@media (min-width: 768px) {
+  #home-section .dark-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 900px;
+    background: rgba(0, 0, 0, 0.8);
+  }
+}
+
+#home-section .line-1 {
+  position: relative;
+  top: 40%;
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+}
+
+/*Hero animation*/
+@media (min-width: 768px) {
+  .line-1 {
+    position: relative;
+    top: 40%;
+    width: 24em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255, 255, 255, 0.75);
+    font-size: 150%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+  }
+
+  /* Animation */
+  .anim-typewriter {
+    animation: typewriter 4s steps(44) 1s 1 normal both,
+      blinkTextCursor 800ms steps(44) infinite normal;
+  }
+
+  @keyframes typewriter {
+    from {
+      width: 0;
+    }
+    to {
+      width: 28em;
+    }
+  }
+  @keyframes blinkTextCursor {
+    from {
+      border-right-color: rgba(255, 255, 255, 0.75);
+    }
+    to {
+      border-right-color: transparent;
+    }
   }
 }
 
@@ -58,7 +121,7 @@ h6 {
   left: 0;
   width: 100%;
   min-height: 800px;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.4);
 }
 
 #about-section .display-5 {
@@ -75,7 +138,6 @@ h6 {
 
 #about h5 {
   line-height: 1.8rem;
-  text-indent: 5%;
 }
 .about-picture-description {
   text-align: center;
