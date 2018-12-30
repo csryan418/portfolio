@@ -17,7 +17,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="css/style.css" />
-    <!--<link href="https://fonts.googleapis.com/css?family=Merriweather:400,700|Open+Sans:400,700" rel="stylesheet">-->
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,700|Open+Sans:400,700" rel="stylesheet">
     <title>CC Portfolio</title>
   </head>
 
@@ -78,16 +78,19 @@
               class="img-fluid mb-3 mt-3"
             />
           </div>
-          <div class="col-md-6 order-1">
-            <h1>Fuse</h1>
+          <div class="col-md-6 order-1 pt-3">
+            <h2>Project Overview</h2>
             <p>
-              a single place to create versions, manage files, and collaborate
-              that is based on the workflow of Git/Github.
+              Even given the seemingly saturated market of cloud-based storage and
+              organization products, we were tasked with developing a product that
+              could fill an underutilized need in that space. To accomplish this,
+              we needed to have the right combination of features to meet the
+              needs of a particular audience.
             </p>
             <a
               href="https://invis.io/9DNU2RTAR5P"
               target="_blank"
-              class="btn btn-outline-info"
+              class="btn btn-outline-info mt-3"
               type="button"
             >
               View Prototype
@@ -100,7 +103,30 @@
     <!-- Overview Section -->
     <section id="overview" class="bg-light text-muted py-5">
       <div class="container">
-        <div class="row bg-light">
+        <div class="row bg-light my-5">
+          <div class="col-md-6 bg-light">
+            <h3><strong>The Problem</strong></h3>
+            <p>
+              The cloud storage and file management space is full of products,
+              but there a few that truly fulfill the needs of all users
+              especially from a collaboration standpoint. Additionally, there
+              are few that cross over between both personal and professional
+              use.
+            </p>
+          </div>
+          <div class="col-md-6 bg-light">
+            <h3><strong>The Solution</strong></h3>
+            <p>
+              Inspired by the Git and Github workflow, <strong>Fuse</strong> is
+              a cloud-based version control and file management hub for
+              everything from your school projects to your client presentations
+              that allows for collaboration across all files.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row bg-light mt-5 pt-5">
           <div class="col-md-4 bg-light text-md-center">
             <h3><strong>Design Roles</strong></h3>
             <ul class="list-unstyled">
@@ -139,50 +165,17 @@
           </div>
         </div>
       </div>
-      <div class="container">
-        <div class="col py-5 text-sm-left text-md-center">
-          <h3><strong>Project Overview</strong></h3>
-          <p>
-            Even given the seemingly saturated market of cloud-based storage and
-            organization products, we were tasked with developing a product that
-            could fill an underutilized need in that space. To accomplish this,
-            we will need to have the right combination of features to meet the
-            needs of a particular audience.
-          </p>
-        </div>
-        <div class="row bg-light">
-          <div class="col-md-6 bg-light">
-            <h3><strong>The Problem</strong></h3>
-            <p>
-              The cloud storage and file management space is full of products,
-              but there a few that truly fulfill the needs of all users
-              especially from a collaboration standpoint. Additionally, there
-              are few that cross over between both personal and professional
-              use.
-            </p>
-          </div>
-          <div class="col-md-6 bg-light">
-            <h3><strong>The Solution</strong></h3>
-            <p>
-              Inspired by the Git and Github workflow, <strong>Fuse</strong> is
-              a cloud-based version control and file management hub for
-              everything from your school projects to your client presentations
-              that allows for collaboration across all files.
-            </p>
-          </div>
-        </div>
-      </div>
     </section>
 
     <!-- Discovery & Research -->
     <section id="discovery-and-research" class="bg-light text-muted py-5">
       <div class="col">
-        <h1 class="bg-dark text-white">Discovery & Research</h1>
+        <h1 class="bg-dark text-white py-4 pl-3">Discovery & Research</h1>
       </div>
       <div class="container">
         <div class="row">
           <div class="col-md-6">
-            <h3 class="bg-light text-dark pt-5 pb-3">USER RESEARCH</h3>
+            <h3 class="bg-light text-dark pt-5 pb-3 mt-3">USER RESEARCH</h3>
             <p>
               To begin, I surveyed a wide range of users across multiple
               demographics, age groups, and professions, in order to get an
@@ -234,53 +227,63 @@
         <div class="col">
           <h3 class="bg-light text-dark pt-5 pb-3">COMPETITIVE ANALYSIS</h3>
         </div>
-        <div class="row">
-          <div class="col-md-4 mx-auto">
-            <img
-              src="img/Google-Drive-logo-vector.png"
-              alt="google drive logo"
-              class="img-fluid pt-3 mx-auto d-block"
-            />
+        <div class="col">
+            <h4 class="pt-5"><strong>Key Insights:</strong></h4>
           </div>
-          <div class="col-md-4 mx-auto">
-            <img
-              src="img/Dropbox_logo_2017.png"
-              alt="dropbox logo"
-              class="img-fluid pt-3 mx-auto d-block"
-            />
+        <div class="container">
+          <div class="row mt-5">
+            <div class="col-md-4 mx-auto">
+              <img
+                src="img/Google-Drive-logo-vector.png"
+                alt="google drive logo"
+                class="img-fluid pt-3 mx-auto d-block"
+              />
+              <p class="mt-5">
+                <strong>Google Drive</strong> is the most popular as well as the
+                most cost effective, however, is limited in its collaboration
+                features.
+              </p>
+              <a
+              href="https://docs.google.com/document/d/1CdSL2UyfMi3LTm1eSAoksJ34_L6sqGjRBb-mEg_Br5k/edit?usp=sharing"
+              target="_blank"
+              >View full analysis ></a
+            >
+            </div>
+            <div class="col-md-4 mx-auto">
+              <img
+                src="img/Dropbox_logo_2017.png"
+                alt="dropbox logo"
+                class="img-fluid mt-5 mx-auto d-block"
+              />
+              <p class="mt-5">
+                <strong>Dropbox</strong> seems to answer a lot of those questions
+                and frequently rolls out new features, however, their cost and
+                storage options do not make it an attractive alternative.
+              </p>
+              <a
+              href="https://docs.google.com/document/d/1CdSL2UyfMi3LTm1eSAoksJ34_L6sqGjRBb-mEg_Br5k/edit?usp=sharing"
+              target="_blank"
+              >View full analysis ></a
+            >
+            </div>
+            <div class="col-md-4 pt-3 mx-auto">
+              <img
+                src="img/Box,_Inc._logo.png"
+                alt="box logo"
+                class="img-fluid pt-3 mx-auto d-block"
+              />
+              <p class="mt-5">
+                <strong>Box</strong> seems to really market itself solely to
+                professionals and is therefore not nearly as cost effective for a
+                wide audience.
+              </p>
+              <a
+              href="https://docs.google.com/document/d/1CdSL2UyfMi3LTm1eSAoksJ34_L6sqGjRBb-mEg_Br5k/edit?usp=sharing"
+              target="_blank"
+              >View full analysis ></a
+              >
+            </div>
           </div>
-          <div class="col-md-4 mx-auto">
-            <img
-              src="img/Box,_Inc._logo.png"
-              alt="box logo"
-              class="img-fluid pt-3 mx-auto d-block"
-            />
-          </div>
-        </div>
-        <div class="col-md-8">
-          <h4 class="pt-5"><strong>Key Insights:</strong></h4>
-          <ul>
-            <li>
-              <strong>Google Drive</strong> is the most popular as well as the
-              most cost effective, however, is limited in its collaboration
-              features.
-            </li>
-            <li>
-              <strong>Dropbox</strong> seems to answer a lot of those questions
-              and frequently rolls out new features, however, their cost and
-              storage options do not make it an attractive alternative.
-            </li>
-            <li>
-              <strong>Box</strong> seems to really market itself solely to
-              professionals and is therefore not nearly as cost effective for a
-              wide audience.
-            </li>
-          </ul>
-          <a
-            href="https://docs.google.com/document/d/1CdSL2UyfMi3LTm1eSAoksJ34_L6sqGjRBb-mEg_Br5k/edit?usp=sharing"
-            target="_blank"
-            >View full analysis ></a
-          >
         </div>
       </div>
       <div class="container">
@@ -294,174 +297,291 @@
             ideal audience for this product idea
           </p>
         </div>
-        <div class="row">
-          <div class="col-md-6">
-            <ul class="list-unstyled">
-              <li>
-                <img
-                  src="img/michael-persona.png"
-                  alt="Michael persona"
-                  class="img-fluid py-3"
-                />
-              </li>
-              <li><strong>Michael</strong></li>
-              <li>Marketing</li>
-              <li>28 | Male | Washington, DC</li>
-              <br />
-              <li><strong>Frustrations</strong></li>
-              <li>
-                Co-workers don’t use file sharing service and prefer to just
-                email back and forth which is causing extra work bc it’s hard to
-                tell which is current. It’s also hard to compare different
-                versions to see which is the best.
-              </li>
-              <br />
-              <li><strong>"My team needs all the help it can get!"</strong></li>
-              <li>
-                <a
-                  href="https://drive.google.com/open?id=1_5BKbEb7k50qnARgsdt7vp4s9UkYqzB5"
-                  target="_blank"
-                  >View full persona ></a
-                >
-              </li>
-            </ul>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <ul class="list-unstyled">
+                <li>
+                  <img
+                    src="img/michael-persona.png"
+                    alt="Michael persona"
+                    class="img-fluid py-3"
+                  />
+                </li>
+                <li><strong>Michael</strong></li>
+                <li>Marketing</li>
+                <li>28 | Male | Washington, DC</li>
+                <br />
+                <li><strong>Motivation</strong></li>
+                <li>
+                  Google Drive works fine for him personally, but where he really needs 
+                  to see improvements is in collaborating with his coworkers.
+                </li>
+                <br />
+                <li><strong>Goals</strong></li>
+                <li>
+                  He would like to be able to collaborate in real-time, in a single straight-forward app, with his coworkers
+                </li>
+                <br />
+                <li><strong>Frustrations</strong></li>
+                <li>
+                  Co-workers don’t use file sharing service and prefer to just
+                  email back and forth which causes extra work bc it’s hard to
+                  tell which is current. It’s also hard to compare different
+                  versions to see which is best.
+                </li>
+                <br />
+                <li><strong>"My team needs all the help it can get!"</strong></li>
+                <li>
+                  <a
+                    href="https://drive.google.com/open?id=1_5BKbEb7k50qnARgsdt7vp4s9UkYqzB5"
+                    target="_blank"
+                    >View full persona ></a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-6 pt-2">
+              <ul class="list-unstyled">
+                <li>
+                  <img
+                    src="img/katherine-persona.png"
+                    alt="Katherine persona"
+                    class="img-fluid py-3"
+                  />
+                </li>
+                <li><strong>Katherine</strong></li>
+                <li>Student</li>
+                <li>20 | Female | Blacksburg, VA</li>
+                <br />
+                <li><strong>Motivation</strong></li>
+                <li>
+                  She is very organized and uses Google Drive to save her
+                  school files in addition to using it to collaborate with other
+                  students on projects.
+                </li>
+                <br>
+                <li><strong>Goals</strong></li>
+                <li>
+                  She needs to stay on track, keep her grades up, and stay focused
+                  so that she can graduate next year.
+                </li>
+                <br>
+                <li><strong>Frustrations</strong></li>
+                <li>
+                  Files get lost or are hard to find. Collaboration features are
+                  limited. Needs to be able to work together with her classmates
+                  on projects and make changes that they all can see.
+                </li>
+                <br />
+                <li>
+                  <strong
+                    >"I need to stay on track so I can graduate on time!"</strong
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://drive.google.com/open?id=1FpGnlr3qFCM0ERIMp3hsnJiswbbCRk-2"
+                    target="_blank"
+                    >View full persona ></a
+                  >
+                </li>
+              </ul>
+            </div>
           </div>
-          <div class="col-md-6 pt-2">
-            <ul class="list-unstyled">
-              <li>
-                <img
-                  src="img/katherine-persona.png"
-                  alt="Katherine persona"
-                  class="img-fluid py-3"
-                />
-              </li>
-              <li><strong>Katherine</strong></li>
-              <li>Student</li>
-              <li>20 | Female | Blacksburg, VA</li>
-              <br />
-              <li><strong>Frustrations</strong></li>
-              <li>
-                Files get lost or are hard to find. Collaboration features are
-                limited. Needs to be able to work together with her classmates
-                on projects and make changes that they all can see.
-              </li>
-              <br />
-              <li>
-                <strong
-                  >"I need to stay on track so I can graduate on time!"</strong
-                >
-              </li>
-              <li>
-                <a
-                  href="https://drive.google.com/open?id=1FpGnlr3qFCM0ERIMp3hsnJiswbbCRk-2"
-                  target="_blank"
-                  >View full persona ></a
-                >
-              </li>
-            </ul>
-          </div>
-        </div>
+        </div>  
       </div>
     </section>
 
     <!-- Information Architecture -->
     <section id="information-architecture" class="bg-light text-muted py-5">
       <div class="col">
-        <h1 class="bg-dark text-white">Information Architecture</h1>
+        <h1 class="bg-dark text-white py-4 pl-3">Information Architecture</h1>
       </div>
       <div class="container">
         <div class="col">
-          <h3 class="bg-light text-dark pt-5 pb-3">USER STORIES</h3>
+          <h3 class="bg-light text-dark pt-5 pb-3 mt-3">USER STORIES</h3>
         </div>
-        <div class="col-md-6">
-          <p>
-            Based on product demands, user research, and user personas, tasks
-            were developed that indicated what
-            <strong>new users, returning users, and all users</strong>, needed
-            to accomplish. The tasks were then organized into
-            <strong>high, medium, and low</strong> priority to form user
-            stories.
-          </p>
-          <a
-            href="https://docs.google.com/spreadsheets/d/1EK84oK51Wy8SomXdqS7OrEry2sPqYb9owCVY5Ey-M_s/edit?usp=sharing"
-            target="_blank"
-            >View all user stories ></a
-          >
-        </div>
-      </div>
-      <div class="container pb-5">
-        <div class="row">
-          <div class="col-md-4">
-            <img
-              src="img/new_user-stories.png"
-              alt="new user stories"
-              class="img-fluid pt-3"
-            />
-          </div>
-          <div class="col-md-4">
-            <img
-              src="img/Returning_user-stories.png"
-              alt="returning user stories"
-              class="img-fluid pt-3"
-            />
-          </div>
-          <div class="col-md-4">
-            <img
-              src="img/all_user-stories.png"
-              alt="all user stories"
-              class="img-fluid pt-3"
-            />
+          <div class="col-md-6">
+            <p>
+              Based on product demands, user research, and user personas, tasks
+              were developed that indicated what
+              <strong>new users, returning users, and all users</strong>, needed
+              to accomplish. The tasks were then organized into
+              <strong>high, medium, and low</strong> priority to form user
+              stories.
+            </p>
+            <a
+              href="https://docs.google.com/spreadsheets/d/1EK84oK51Wy8SomXdqS7OrEry2sPqYb9owCVY5Ey-M_s/edit?usp=sharing"
+              target="_blank"
+              >View all user stories ></a
+            >
           </div>
         </div>
-      </div>
+        <div class="container">
+          <div class="container pb-5">
+            <div class="row">
+              <div class="col-md-4">
+                <img
+                  src="img/new_user-stories.png"
+                  alt="new user stories"
+                  class="img-fluid pt-3"
+                />
+              </div>
+              <div class="col-md-4">
+                <img
+                  src="img/Returning_user-stories.png"
+                  alt="returning user stories"
+                  class="img-fluid pt-3"
+                />
+              </div>
+              <div class="col-md-4">
+                <img
+                  src="img/all_user-stories.png"
+                  alt="all user stories"
+                  class="img-fluid pt-3"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
       <div class="container user-flows my-5">
         <div class="col">
           <h3 class="bg-light text-dark pt-5 pb-3 user-flows">USER FLOWS</h3>
         </div>
-        <div class="col-md-6 pb-5 user-flow-border">
-          <p>
-            Based on research, competitive analysis, and user stories, user
-            flows were then developed in order to map out the ideal user
-            experience. These were first sketched out by hand and then
-            digitally. User flows included: onboarding, uploading and
-            organizing, sharing a file/folder, creating a folder, creating a
-            copy, and approving/disapproving/merging.
-          </p>
-          <a
-            href="https://drive.google.com/open?id=1trAsX5bqxDQiTS0Or9vhkMvLITTwQOj3"
-            target="_blank"
-            >View all user flows ></a
-          >
+        <div class="container">
+          <div class="col-md-6 pb-5 mb-5 user-flow-border">
+            <p class="pt-3">
+              Based on research, competitive analysis, and user stories, user
+              flows were then developed in order to map out the ideal user
+              experience. These were first sketched out by hand and then
+              digitally. User flows included: onboarding, uploading and
+              organizing, sharing a file/folder, creating a folder, creating a
+              copy, and approving/disapproving/merging.
+            </p>
+            <a
+              href="https://drive.google.com/open?id=1trAsX5bqxDQiTS0Or9vhkMvLITTwQOj3"
+              target="_blank"
+              >View all user flows ></a
+            >
+          </div>
         </div>
+        <div class="container">
+          <div class="row">
+              <div class="col-md-6 my-3">
+                <img 
+                src="img/user-flow-sketch.png" 
+                alt="user flow sketch" 
+                class="img-fluid">
+              </div>
+              <div class="col-md-6 my-3">
+                <img 
+                src="img/User-flow_Uploading-organizing.png" 
+                alt="digital user flow" 
+                class="img-fluid">
+              </div>
+          </div>
+        </div>  
       </div>
       <div class="container wireframes my-5">
         <div class="col">
           <h3 class="bg-light text-dark pt-5 pb-3 wireframes">WIREFRAMES</h3>
         </div>
-        <div class="col-md-6 pb-5 mb-5 user-flow-border">
-          <p>
-            Referring back to the user flows, wireframes were created for each
-            task. Firstly, sketches were drawn of the initial design ideas and
-            then they were produced digitally. This was a continuous process
-            until all user flows had been successfully wireframed.
-          </p>
-          <a
-            href="https://drive.google.com/open?id=19FH3R2BVlPjPLbRCaKxZAKwqLV4auMZi"
-            target="_blank"
-            >View all wireframes ></a
-          >
+        <div class="container">
+          <div class="col-md-6 pb-5 mb-5 user-flow-border">
+            <p class="pt-3">
+              Referring back to the user flows, wireframes were created for each
+              task. Firstly, sketches were drawn of the initial design ideas and
+              then they were produced digitally. This was a continuous process
+              until all user flows had been successfully wireframed.
+            </p>
+            <a
+              href="https://drive.google.com/open?id=19FH3R2BVlPjPLbRCaKxZAKwqLV4auMZi"
+              target="_blank"
+              >View all wireframes ></a
+            >
+          </div>
         </div>
+        <div class="row">
+          <div class="col-md-6 my-3">
+            <img 
+             src="img/Welcome-page-sketch-wireframe.png" 
+             alt="sketch wireframe of welcome page" 
+             class="img-fluid">
+          </div>
+          <div class="col-md-6 my-3">
+            <img 
+             src="img/Welcome-Page-wireframe.png" 
+             alt="digital wireframe of welcome page" 
+             class="img-fluid">
+          </div>
+        </div>
+        <div class="row my-5">
+            <div class="col-md-6 my-3">
+              <img 
+               src="img/Dashboard-Sketch-wireframe.png" 
+               alt="sketch wireframe of dashboard" 
+               class="img-fluid">
+            </div>
+            <div class="col-md-6 my-3">
+              <img 
+               src="img/Dashboard-Page-wireframe.png" 
+               alt="digital wireframe of dashboard" 
+               class="img-fluid">
+            </div>
+          </div>
       </div>
+      <div class="container">
+          <div class="col">
+            <h3 class="bg-light text-dark pt-5 pb-3 mt-3">ROUND 1 - USABILITY TESTING</h3>
+          </div>
+      </div>
+          <div class="container">
+            <div class="col-md-6">
+              <p>
+                After digital wireframes had been constructed, the first round of usability tests commenced. Three scenarios were tested to ensure a good user experience. Testers were tasked with signing up for an account, adding a piece of content like a file or a folder, and lastly organizing a piece of content like a file into a folder.
+              </p>
+              <a
+                href="https://docs.google.com/document/d/1DhuaB_MZ_E9eTx9vm6PS5hLTRp-MxtFvPCyHVv2BBSE/edit?usp=sharing"
+                target="_blank"
+                >View full round 1 usability test restuls ></a
+                >
+            </div> 
+            <div class="container">
+              <div class="row">
+                  <div class="col-md-6">
+                    <h4 class="pt-5"><strong>Key Insights:</strong></h4>
+                    <ul>
+                      <li>
+                        Each tester had no issues going through the sign up process and found it to be very straightforward
+                      </li>
+                      <li>
+                        Each tester successfully completed the task of organizing a piece of content as the flow is very similar to that of Google Drive
+                      </li>
+                      <li>
+                        Testers stuggled to find the “create” and “add” buttons. Additionally, testers struggled to understand the wording and did not understand the difference between create and add. It became clear that this needed to be changed into one button with different wording and needed to be placed in a different location on the page
+                      </li>
+                    </ul>
+                  </div>
+                <div class="col-md-6 mt-5">
+                  <img 
+                  src="img/wireframe-usability test.png" 
+                  alt="wireframe usability test result" 
+                  class="img-fluid">
+                </div>
+              </div> 
+            </div>
+          </div>
     </section>
 
     <!-- Branding & Identity -->
     <section id="branding-identity" class="bg-light text-muted py-5">
       <div class="col">
-        <h1 class="bg-dark text-white">Branding & Identity</h1>
+        <h1 class="bg-dark text-white py-4 pl-3">Branding & Identity</h1>
       </div>
       <div class="container">
         <div class="col">
-          <h3 class="bg-light text-dark pt-5 pb-3">BRANDING</h3>
+          <h3 class="bg-light text-dark pt-5 pb-3 mt-3">BRANDING</h3>
         </div>
         <div class="col-md-6">
           <p>
@@ -540,7 +660,7 @@
             <img
               src="img/Finalizing-logo.png"
               alt="finaling logo image"
-              class="img-fluid "
+              class="img-fluid"
             />
           </div>
         </div>
@@ -593,11 +713,11 @@
     <!-- Prototypes & Testing -->
     <section id="prototypes-testing" class="bg-light text-muted py-5">
       <div class="col">
-        <h1 class="bg-dark text-white">Prototypes & Testing</h1>
+        <h1 class="bg-dark text-white py-4 pl-3">Prototypes & Testing</h1>
       </div>
       <div class="container">
           <div class="col">
-            <h3 class="bg-light text-dark pt-5 pb-3">TESTING</h3>
+            <h3 class="bg-light text-dark pt-5 pb-3 mt-3">TESTING</h3>
           </div>
           <div class="col-md-6">
             <p>
@@ -662,11 +782,11 @@
     <!-- Conclusion -->
     <section id="conclusion" class="bg-light text-muted py-5">
         <div class="col">
-          <h1 class="bg-dark text-white">Conclusion</h1>
+          <h1 class="bg-dark text-white py-4 pl-3">Conclusion</h1>
         </div>
         <div class="container">
             <div class="col">
-              <h3 class="bg-light text-dark pt-5 pb-3">FINAL TOUCHES</h3>
+              <h3 class="bg-light text-dark pt-5 pb-3 mt-3">FINAL TOUCHES</h3>
             </div>
             <div class="col-md-6">
               <p>
@@ -705,8 +825,7 @@
                 <p>Because users who took the time to learn about the product from the welcome/ marketing pages tended to perform better, if more time permits, it would be helpful to build out “walk through” directions for new users so that the workflow is clearer. From the test results, it became clear that this may be necessary and could help with taking my conception and making it clearer to the end user from the “get-go.”
                 </p>
                 <p>Additionally, from the entire project, I learned that I need to test early and test often. This is crucial to ensuring that I didn’t go down a road that may not be the best choice. Additionally, if I ever felt stuck, it was best to turn that into a preference test and let the users ultimately decided for me. Also, I realized that I needed to develop a strong design system so that my work could be more efficient.
-                </p><br>
-                
+                </p>
                 <p>Overall, I believe that the user research that was completed shows that there is a need for additional features than the current selection of cloud storage products provides. The functionality that Fuse provides in being able to create versions of multiple different file types, collaborate on those files with other users, and then ultimately merge them into the best, final version, addresses some of these current shortcomings.
                 </p>   
             </div>
@@ -780,7 +899,7 @@
           </div>
         </div>
       </footer>
-
+ 
     <script
       src="http://code.jquery.com/jquery-3.3.1.min.js"
       integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="

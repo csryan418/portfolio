@@ -22,6 +22,11 @@ h6 {
 }
 
 /*Home Page*/
+
+.name-style {
+  font-size: 2.3rem;
+  font-style: italic;
+}
 #home-section {
   background: url(../img/Bg-img-squashed.jpg);
   background-repeat: no-repeat;
@@ -57,9 +62,11 @@ h6 {
   }
 }
 
-#home-section .line-1 {
+#home-section .line-1,
+.line-2,
+.line-3 {
   position: relative;
-  top: 40%;
+  top: 30%;
   margin: 0 auto;
   text-align: center;
   width: 100%;
@@ -80,10 +87,48 @@ h6 {
     transform: translateY(-50%);
   }
 
+  .line-2 {
+    position: relative;
+    top: 45%;
+    width: 24em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255, 255, 255, 0.75);
+    font-size: 150%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+  }
+
+  .line-3 {
+    position: relative;
+    top: 50%;
+    width: 24em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255, 255, 255, 0.75);
+    font-size: 150%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+  }
+
   /* Animation */
   .anim-typewriter {
     animation: typewriter 4s steps(44) 1s 1 normal both,
       blinkTextCursor 800ms steps(44) infinite normal;
+  }
+
+  .anim-typewriter-2 {
+    animation: typewriter 4s steps(44) 1s 1 normal both,
+      blinkTextCursor 800ms steps(44) infinite normal;
+    animation-delay: 5s;
+  }
+
+  .anim-typewriter-3 {
+    animation: typewriter 4s steps(44) 1s 1 normal both,
+      blinkTextCursor 800ms steps(44) infinite normal;
+    animation-delay: 7s;
   }
 
   @keyframes typewriter {
@@ -91,7 +136,7 @@ h6 {
       width: 0;
     }
     to {
-      width: 28em;
+      width: 29em;
     }
   }
   @keyframes blinkTextCursor {
@@ -157,13 +202,14 @@ h6 {
   margin-top: 5rem;
 }
 
-#overview {
-  background-color: rgb(147, 199, 202);
-  border-top: #333 solid 1px;
-}
-
 #discovery-and-research h1 {
   font-family: "Merriweather";
+  margin: -15px;
+}
+
+#information-architecture h1 {
+  font-family: "Merriweather";
+  margin: -15px;
 }
 
 #information-architecture .user-flows {
@@ -175,6 +221,7 @@ h6 {
 
 #information-architecture .user-flow-border {
   background-color: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #information-architecture .wireframes {
@@ -182,6 +229,21 @@ h6 {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+}
+
+#branding-identity h1 {
+  font-family: "Merriweather";
+  margin: -15px;
+}
+
+#prototypes-testing h1 {
+  font-family: "Merriweather";
+  margin: -15px;
+}
+
+#conclusion h1 {
+  font-family: "Merriweather";
+  margin: -15px;
 }
 
 /*bottom section*/
