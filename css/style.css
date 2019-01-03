@@ -27,6 +27,7 @@ h6 {
   font-size: 2.3rem;
   font-style: italic;
 }
+
 #home-section {
   background: url(../img/Bg-img-squashed.jpg);
   background-repeat: no-repeat;
@@ -64,9 +65,10 @@ h6 {
 
 #home-section .line-1,
 .line-2,
-.line-3 {
+.line-3,
+.line-4 {
   position: relative;
-  top: 30%;
+  top: 35%;
   margin: 0 auto;
   text-align: center;
   width: 100%;
@@ -113,6 +115,18 @@ h6 {
     transform: translateY(-50%);
   }
 
+  .line-4 {
+    position: relative;
+    top: 60%;
+    width: 24em;
+    margin: 0 auto;
+    font-size: 150%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+  }
+
   /* Animation */
   .anim-typewriter {
     animation: typewriter 4s steps(44) 1s 1 normal both,
@@ -147,6 +161,11 @@ h6 {
       border-right-color: transparent;
     }
   }
+}
+
+.arrow {
+  max-width: 10%;
+  position: relative;
 }
 
 /*About Page*/
@@ -205,6 +224,11 @@ h6 {
 #discovery-and-research h1 {
   font-family: "Merriweather";
   margin: -15px;
+}
+
+.quote {
+  font-size: 4rem;
+  font-family: "Libre Baskerville";
 }
 
 #information-architecture h1 {
