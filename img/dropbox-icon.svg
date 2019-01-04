@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="150px" height="134px" viewBox="0 0 150 134" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>dropbox</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Assets" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-6607.000000, -62.000000)" fill="#0093EB" id="dropbox">
+            <g transform="translate(6607.000000, 62.000000)">
+                <polygon id="Path" points="29.4641602 104.32207 29.4641602 92.268457 49.8213867 104.054004 75 80.4826172 75 134.054004"></polygon>
+                <polygon id="Path" points="5.08916016 72.4470703 31.6072266 48.3398438 75 75.1256836 49.8213867 98.6970703"></polygon>
+                <polygon id="Path" points="31.6072266 48.3398438 0 24.2326172 45.5358398 0.125683594 77.6786133 21.5540039"></polygon>
+                <polygon id="Path" points="120.53584 104.589844 75 134.054004 75 80.4826172 100.982227 102.982617 120.53584 90.6612305"></polygon>
+                <polygon id="Path" points="100.982227 97.6256836 75 75.1256836 118.66084 47.268457 144.91084 69.768457"></polygon>
+                <polygon id="Path" points="118.66084 47.268457 77.6786133 21.5540039 109.821387 0.125683594 150 24.2326172"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

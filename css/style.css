@@ -168,6 +168,18 @@ h6 {
   position: relative;
 }
 
+#fuse-section h5 {
+  line-height: 2rem;
+}
+
+#blocjams-section h5 {
+  line-height: 2rem;
+}
+
+#quote-section h3 {
+  line-height: 2.4rem;
+}
+
 /*About Page*/
 
 #about-section {
@@ -217,6 +229,11 @@ h6 {
 
 /*FUSE CASE STUDY*/
 
+.box-shadow {
+  background-color: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 #fuse-case-study-section .row {
   margin-top: 5rem;
 }
@@ -227,8 +244,7 @@ h6 {
 }
 
 .quote {
-  font-size: 4rem;
-  font-family: "Libre Baskerville";
+  font-size: 3rem;
 }
 
 #information-architecture h1 {
@@ -236,16 +252,18 @@ h6 {
   margin: -15px;
 }
 
-#information-architecture .user-flows {
-  background-image: url(../img/Background-image-user_flows.png);
+#information-architecture .user-stories {
+  background-image: url(../img/all_user-stories.png);
   background-repeat: repeat;
   background-size: cover;
   background-attachment: fixed;
 }
 
-#information-architecture .box-shadow {
-  background-color: #fff;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+#information-architecture .user-flows {
+  background-image: url(../img/Background-image-user_flows.png);
+  background-repeat: repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 #information-architecture .wireframes {
@@ -268,6 +286,10 @@ h6 {
 #conclusion h1 {
   font-family: "Merriweather";
   margin: -15px;
+}
+
+.mouse {
+  margin: 0 auto;
 }
 
 /*bottom section*/
