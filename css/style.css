@@ -34,6 +34,7 @@ h6 {
   background-size: 100%;
   background-attachment: fixed;
   height: 300px;
+  overflow: hidden;
 }
 
 @media (min-width: 768px) {
@@ -49,7 +50,7 @@ h6 {
   left: 0;
   width: 100%;
   min-height: 300px;
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.9);
 }
 
 @media (min-width: 768px) {
@@ -150,12 +151,12 @@ h6 {
       width: 0;
     }
     to {
-      width: 29em;
+      width: 30em;
     }
   }
   @keyframes blinkTextCursor {
     from {
-      border-right-color: rgba(255, 255, 255, 0.75);
+      border-right-color: rgba(255, 255, 255, 0.1);
     }
     to {
       border-right-color: transparent;
@@ -215,6 +216,9 @@ h6 {
 #about h5 {
   line-height: 1.8rem;
 }
+#about h6 {
+  line-height: 1.5rem;
+}
 .about-picture-description {
   text-align: center;
 }
@@ -241,6 +245,7 @@ h6 {
 #discovery-and-research h1 {
   font-family: "Merriweather";
   margin: -15px;
+  padding-left: auto;
 }
 
 .quote {
@@ -299,7 +304,7 @@ h6 {
   background: url("../img/media.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-position: 0 -300px;
+  background-position: 0 -200px;
   text-align: center;
   color: #fff;
 }
