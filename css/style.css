@@ -28,6 +28,10 @@ h6 {
   font-style: italic;
 }
 
+.intro-style {
+  background-color: #238a9b;
+}
+
 #home-section {
   background: url(../img/Bg-img-squashed.jpg);
   background-repeat: no-repeat;
@@ -50,7 +54,7 @@ h6 {
   left: 0;
   width: 100%;
   min-height: 300px;
-  background: rgba(0, 0, 0, 0.9);
+  background: rgba(0, 0, 0, 0.8);
 }
 
 @media (min-width: 768px) {
@@ -82,7 +86,7 @@ h6 {
     top: 40%;
     width: 24em;
     margin: 0 auto;
-    border-right: 2px solid rgba(255, 255, 255, 0.75);
+    /*border-right: 2px solid rgba(255, 255, 255, 0.9);*/
     font-size: 150%;
     text-align: center;
     white-space: nowrap;
@@ -95,7 +99,7 @@ h6 {
     top: 45%;
     width: 24em;
     margin: 0 auto;
-    border-right: 2px solid rgba(255, 255, 255, 0.75);
+    /*border-right: 2px solid rgba(255, 255, 255, 0.75);*/
     font-size: 150%;
     text-align: center;
     white-space: nowrap;
@@ -108,7 +112,7 @@ h6 {
     top: 50%;
     width: 24em;
     margin: 0 auto;
-    border-right: 2px solid rgba(255, 255, 255, 0.75);
+    /*border-right: 2px solid rgba(255, 255, 255, 0.75);*/
     font-size: 150%;
     text-align: center;
     white-space: nowrap;
@@ -245,11 +249,16 @@ h6 {
 #discovery-and-research h1 {
   font-family: "Merriweather";
   margin: -15px;
-  padding-left: auto;
 }
 
 .quote {
   font-size: 3rem;
+}
+.git-quote {
+  font-size: 2rem;
+}
+
+.user-personas {
 }
 
 #information-architecture h1 {
@@ -257,7 +266,7 @@ h6 {
   margin: -15px;
 }
 
-#information-architecture .user-stories {
+/*#information-architecture .user-stories {
   background-image: url(../img/all_user-stories.png);
   background-repeat: repeat;
   background-size: cover;
@@ -276,7 +285,7 @@ h6 {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-}
+}*/
 
 #branding-identity h1 {
   font-family: "Merriweather";
