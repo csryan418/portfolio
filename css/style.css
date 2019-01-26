@@ -173,6 +173,14 @@ h6 {
   position: relative;
 }
 
+#shoptalk-section h5 {
+  line-height: 2rem;
+}
+
+#hangry-section h5 {
+  line-height: 2rem;
+}
+
 #fuse-section h5 {
   line-height: 2rem;
 }
