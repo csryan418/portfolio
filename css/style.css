@@ -243,22 +243,59 @@ h6 {
   width: 50%;
 }
 
+/*Blog Page*/
+
+#blog-section {
+  background: url(../img/shoptalk_logo.png);
+  background-repeat: no-repeat;
+  background-size: 65%;
+  background-attachment: fixed;
+  background-position: center;
+  min-height: 700px;
+}
+
+#blog-section .dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 700px;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+#blog-section .display-5 {
+  font-size: 2rem;
+  color: #cbd3dd;
+  padding-top: 15rem;
+}
+
+@media (min-width: 768px) {
+  #blog-section .display-5 {
+    line-height: 2.8rem;
+  }
+}
+
+#blog h6 {
+  line-height: 1.5rem;
+}
+
+.orange {
+  color: orange;
+}
+
 /*FUSE CASE STUDY*/
 
 .box-shadow {
   background-color: #fff;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
 #fuse-case-study-section .row {
   margin-top: 5rem;
 }
-
 #discovery-and-research h1 {
   font-family: "Merriweather";
   margin: -15px;
 }
-
 .quote {
   font-size: 3rem;
 }
@@ -268,12 +305,10 @@ h6 {
 
 .user-personas {
 }
-
 #information-architecture h1 {
   font-family: "Merriweather";
   margin: -15px;
 }
-
 /*#information-architecture .user-stories {
   background-image: url(../img/all_user-stories.png);
   background-repeat: repeat;
@@ -294,7 +329,6 @@ h6 {
   background-size: cover;
   background-attachment: fixed;
 }*/
-
 #branding-identity h1 {
   font-family: "Merriweather";
   margin: -15px;
@@ -304,30 +338,28 @@ h6 {
   font-family: "Merriweather";
   margin: -15px;
 }
-
 #conclusion h1 {
   font-family: "Merriweather";
   margin: -15px;
 }
-
 .mouse {
   margin: 0 auto;
 }
-
 /*bottom section*/
+
 #bottom-section {
   position: relative;
   min-height: 200px;
   background: url("../img/media.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
+
   background-position: 0 -200px;
   text-align: center;
   color: #fff;
 }
 
 /*footer*/
-
 #main-footer i {
   font-size: 2rem;
 }
