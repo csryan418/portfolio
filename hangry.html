@@ -1,0 +1,1031 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+      integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+      integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,700|Open+Sans:400,700|Libre+Baskerville:400,700" rel="stylesheet">
+    <title>CC Portfolio</title>
+  </head>
+
+  <body data-spy="scroll" data-target="#main-nav" id="home">
+    <nav
+      class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top"
+      id="main-nav"
+    >
+      <div class="container">
+        <a href="index.html" class="navbar-brand">
+          <img src="img/C-logo-white.svg" alt="Carrie logo" class="img-fluid">
+        </a>
+        <button
+          class="navbar-toggler"
+          data-toggle="collapse"
+          data-target="#navbarCollapse"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                  <div class="dropdown">
+                      <button 
+                        class="btn btn-outline-info dropdown-toggle mx-1 px-3" 
+                        type="button" id="dropdownMenuButton" 
+                        data-toggle="dropdown" 
+                        aria-haspopup="true" 
+                        aria-expanded="false">
+                        Work
+                      </button>
+                      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a 
+                          class="dropdown-item" 
+                          href="hangry.html"
+                          >Hangry
+                        </a>
+                        <a class="dropdown-item" href="fuse.html">Fuse</a>
+                        <a class="dropdown-item" href="https://csryan-blocjams.netlify.com/"
+                          target="_blank"
+                          >BlocJams</a>
+                      </div>
+                    </div>
+              </li>
+              <li class="nav-item">
+                <a href="about.html" 
+                class="nav-link mx-1"
+                >About</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  href="img/Caroline-Cutten-Resume.pdf"
+                  target="_blank"
+                  class="nav-link mx-1"
+                  >Resume</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  href="mailto:csryan418@gmail.com"
+                  target="_blank"
+                  class="nav-link mx-1"
+                  >Get In Touch</a
+                >
+              </li>
+            </ul>
+          </div>
+      </div>
+    </nav>
+
+    <!-- Case Study Hero SECTION -->
+    <a name="top"></a>
+    <section id="fuse-case-study-section" class="bg-light text-muted py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 order-2">
+            <img
+              src="img/solution-imgs.png"
+              alt="hangry mockup images"
+              class="img-fluid mb-3 mt-3"
+            />
+          </div>
+          <div class="col-md-6 order-1 pt-3">
+            <h2>Project Overview</h2>
+            <p>
+              There are a number of restaurant and map apps on the market, however, 
+              there is very little truly live information that can help users decide which 
+              restaurant to go to where they will not have to wait and will have an 
+              overall pleasant experience.
+            </p>
+            <a
+              href="https://invis.io/3WQ9JVTNAYC"
+              target="_blank"
+              class="btn btn-outline-info mt-3"
+            >
+              View Prototype
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Overview Section -->
+    <section id="overview" class="bg-light text-muted py-5">
+      <div class="container">
+        <div class="row bg-light my-5">
+          <div class="col-md-6 bg-light">
+            <h3><strong>The Problem</strong></h3>
+            <p>
+              Yelp, Google Maps, Open Table, etc all provide users information about 
+              reviews, location, hours, menus, and general restaurant details, however, 
+              there is no current app on the market that provides real-time, live 
+              information about a restaurants wait time, line length, or noise levels. 
+              Restaurant goers are left in the dark about this type of information until 
+              they arrive at the restaurant. Arriving at a restaurant that is too crowded 
+              or busy can mean restaurant goers turn away and go somewhere else.
+            </p>
+          </div>
+          <div class="col-md-6 bg-light">
+            <h3><strong>The Solution</strong></h3>
+            <p>
+              <strong>Hangry</strong> is the only user-submitted, and community-based app (similar to Waze) 
+              that provides real-time details about a restaurants wait time, line length, 
+              and noise levels so that users can know ahead of time if it is worth going to 
+              that restaurant or if they should go somewhere else. This information is reported 
+              by actual users, rather than in partnership with the restaurant, so others can 
+              trust the information to be accurate.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row bg-light mt-5 pt-5">
+          <div class="col-md-4 bg-light text-md-center">
+            <h3><strong>Design Roles</strong></h3>
+            <ul class="list-unstyled">
+              <li>User Research</li>
+              <li>UI/UX Design</li>
+              <li>Visual Design</li>
+              <li>Branding</li>
+            </ul>
+          </div>
+          <div class="col-md-4 bg-light text-md-center">
+            <h3><strong>Design Deliverables</strong></h3>
+            <ul class="list-unstyled">
+              <li>User Research</li>
+              <li>Competitive Analysis</li>
+              <li>User Personas</li>
+              <li>User Stories</li>
+              <li>User Flows</li>
+              <li>Wireframes</li>
+              <li>Branding/Identity</li>
+              <li>Prototypes</li>
+              <li>User Testing Results</li>
+            </ul>
+          </div>
+          <div class="col-md-4 bg-light text-md-center">
+            <h3><strong>Design Tools</strong></h3>
+            <ul class="list-unstyled">
+              <li>Pen & Paper</li>
+              <li>Google Forms</li>
+              <li>Draw.io</li>
+              <li>Figma</li>
+              <li>Sketch</li>
+              <li>Usability Hub</li>
+              <li>InVision</li>
+              <li>Maze</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Discovery & Research -->
+    <section id="discovery-and-research" class="bg-light text-muted py-5">
+      <div class="col">
+        <h1 class="bg-dark text-white py-4 text-sm-center">Discovery & Research</h1>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h3 class="bg-light text-dark pt-5 pb-3 mt-3 ml-3">User Research</h3>
+            <p class="ml-3">
+              To begin, I surveyed a wide range of users across multiple
+              demographics, age groups, and professions, in order to get an
+              understanding of their current use of restaurant, search, and map apps, to
+              get an understanding of their likes, dislikes, frustrations, and to get an
+              understanding of the limitations that each felt regarding their
+              app(s) of choice.
+            </p>
+            <a
+              class="ml-3"
+              href="https://docs.google.com/document/d/1tYAQ6yRDAoekrIzvsi8TThNkpXo2LQncVHe9xwy6lxw/edit?usp=sharing"
+              target="_blank"
+              >See full survey results >
+            </a>
+            
+            <h4 class="pt-5 ml-3"><strong>Key Insights:</strong></h4>
+            <ul>
+              <li><strong>100</strong>% of surveyors reported that they have gotten to a 
+                restaurant or bar only to find that it is too crowded and they aren’t willing 
+                to wait</li>
+              <li><strong>91</strong>% of surveyors find that scenario to be very frustrating, 
+                frustrating, or somewhat frustrating </li>
+              <li>
+                <strong>62</strong>% of surveyors use an app to look up restaurants in their area, 
+                with Google Maps, Yelp, and Open Table being the most popular
+              </li>
+              <li>
+                <strong>77</strong>% have used Waze and of those, 91% find it helpful and 61% have 
+                contributed to it
+              </li>
+              <li><strong>Features that you wish your app had?</strong> Overwhelmingly, users wanted 
+                live wait time information</li>
+              <li><strong>Key user suggestions:</strong> 1. Provide an incentive for people to
+              submit information (similar to Open Table's rewards program.<br>2. Make it as easy as possible
+              to contribute</li>              
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <img
+              src="img/pie-chart.svg"
+              alt="pie chart img"
+              class="img-fluid rounded-circle d-none d-md-block pt-5"
+            />
+          </div>
+          <div class="col-md-6 mx-auto text-md-center mt-3">
+            <h5 class="pt-5 ml-3"><strong>Question posed to surveyors:</strong></h5>
+            <p class="ml-3">
+              Do you think that if an app had a feature where users submitted information 
+              about how crowded a restaurant/bar was, you would find this helpful?
+            </p>
+            <h4 class="pt-2 pb-5 ml-3"><strong>83</strong>% answered 'yes'</h4>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="col">
+          <h3 class="bg-light text-dark py-3">Competitive Analysis</h3>
+        </div>
+        <div class="col-md-6">
+          <p>
+            I performed competitive analysis and SWOT analysis of 3 different restaurant/search 
+            type apps, including Google Maps, Yelp, and OpenTable given that those were the 3 most 
+            popular based on survey results. Additionally, I also performed competitive analysis 
+            and SWOT analysis of Waze, given that this app will be based on its workflow. Some analysis highlights are below.
+          </p>
+          <a
+            href="https://docs.google.com/document/d/1RwwVhTFM-iHuxy-U8zYbx76bOm8NuHCPNST3r_LMpBM/edit?usp=sharing"
+            target="_blank"
+            >View full analysis >
+          </a>
+        </div>
+        <div class="container">
+          <div class="row mt-5">
+            <div class="col-md-3 mx-auto">
+              <img
+                src="img/google-maps.png"
+                alt="google drive logo"
+                class="img-fluid mx-auto d-block"
+              />
+              <p class="my-3">
+                <strong>Google Maps:</strong> Popular times information is not truly “real-time” or 
+                “live” - it is based on aggregated data that can only truly be an estimate
+              </p>
+            </div>
+            <div class="col-md-3 mx-auto">
+              <img
+                src="img/yelp.png"
+                alt="dropbox logo"
+                class="img-fluid mx-auto d-block"
+              />
+              <p class="my-3">
+                <strong>Yelp:</strong> Yelp recently acquired a company called “Nowait” - which 
+                offered users the ability to join a restaurants waitlist from their phone, prior 
+                to arriving at the restaurant
+              </p>
+            </div>
+            <div class="col-md-3 mx-auto">
+              <img
+                src="img/waze.png"
+                alt="box logo"
+                class="img-fluid mx-auto d-block"
+              />
+              <p class="my-3">
+                <strong>Waze:</strong> "One of the unique aspects of Waze is the ability to direct 
+                users based on crowdsourced information. Waze users are able to report a multitude 
+                of traffic-related incidents from accidents to police traps. This data is used by 
+                Waze to help other users either by alerting them of the condition ahead or even 
+                rerouting the user to avoid the area entirely."
+              </p>
+            </div>
+            <div class="col-md-3 mt-2 mx-auto">
+              <img
+                src="img/opentable.png"
+                alt="box logo"
+                class="img-fluid mx-auto d-block"
+              />
+              <p class="my-4">
+                <strong>Open Table:</strong> When you book and honor reservations through OpenTable, 
+                you can collect Dining Points. These points can be redeemed for Dining Rewards that 
+                can be put toward meals at many OpenTable restaurants. You can also redeem points 
+                for Amazon Gift Cards* and, from time to time, donate points to charitable causes.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="col">
+          <h3 class="bg-light text-dark mt-3 pt-5 pb-3">User Personas</h3>
+        </div>
+        <div class="col-md-6">
+          <p>
+            Based on user surveys and the competitive analysis performed,
+            representative user personas were developed in order to portray the
+            ideal audience for this app idea
+          </p>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <ul class="list-unstyled">
+                <p class="text-center">
+                  <img
+                    src="img/Miguel.png"
+                    alt="Miguel persona"
+                    class="img-fluid py-3"
+                  />
+                </p>
+                <p class="text-center"><strong>Miguel</strong></p>
+                <p class="text-center">Account Manager</p>
+                <p class="text-center">26 | Male | Charleston, SC</p>
+                <br />
+                <li><strong>Motivation</strong></li>
+                <li>
+                  Loves going out with his friends and co-workers and loves having a good time.
+                  There are so many good places to try in Charleston!
+                </li>
+                <br />
+                <li><strong>Goals</strong></li>
+                <li>
+                  There are so many places to eat in Charleston, but it would be really nice to
+                  find one that wasn't always crowded all the time. Knowing about the crowd and wait times
+                  ahead of time would definitely help his decision.
+                </li>
+                <br />
+                <li><strong>Frustrations</strong></li>
+                <li>
+                  Miguel gets hangry and is very impatient when it comes to waiting. He hates waiting
+                  especially when it comes to food. His friends can attest to how grumpy he can get.
+                </li>
+                <br />
+                <li><strong>"My friends tell me that I get 'hangry!'"</strong></li>
+                <li>
+                  <a
+                    href="https://drive.google.com/open?id=1xbeMZqrQYuedDXXwg4IkEI14qD_7Em6F"
+                    target="_blank"
+                    >View full persona ></a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-6 pt-2">
+              <ul class="list-unstyled">
+                <p class="text-center">
+                  <img
+                    src="img/Natasha.png"
+                    alt="Natasha persona"
+                    class="img-fluid py-3"
+                  />
+                </p>
+                <p class="text-center"><strong>Natasha</strong></p>
+                <p class="text-center">Brand Manager</p>
+                <p class="text-center">31 | Female | Richmond, VA</p>
+                <br />
+                <li><strong>Motivation</strong></li>
+                <li>
+                  Loves trying all of the new restaurants that are popping up around town.
+                </li>
+                <br>
+                <li><strong>Goals</strong></li>
+                <li>
+                  Would really like to have the ability to check out if a restaurant is crowded or
+                  not before wasting her time only to end up going elsewhere.
+                </li>
+                <br>
+                <li><strong>Frustrations</strong></li>
+                <li>
+                  Gets frustrated when she shows up to a restaurant only to find that it is too
+                  crowded to get a table and the wait is 30+ minutes. She's usually only willing to wait
+                  a minimum of 20 minutes otherwise she is going somewhere else.
+                </li>
+                <br />
+                <li>
+                  <strong
+                  >The self-proclaimed "foodie"</strong
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://drive.google.com/open?id=15xE7iRGCA7n_s2TJvF73sjaTXHgP82vC"
+                    target="_blank"
+                    >View full persona ></a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>  
+      </div>
+    </section>
+
+    <!-- Information Architecture -->
+    <section id="information-architecture" class="bg-light text-muted py-5">
+      <div class="col">
+        <h1 class="bg-dark text-white py-4 text-sm-center">Information Architecture</h1>
+      </div>
+      <div class="container user-stories my-5">
+          <div class="col">
+              <h3 class="bg-light text-dark pt-5 pb-3 mt-3 user-stories">User Stories</h3>
+          </div>
+            <div class="col-md-6 pb-3 mb-5">
+              <p class="pt-3">
+                Based on product demands, user research, and user personas, tasks
+                were developed that indicated what
+                <strong>new users, returning users, and all users</strong>, needed
+                to accomplish. The tasks were then organized into
+                <strong>high, medium, and low</strong> priority to form user
+                stories.
+              </p>
+              <a
+                href="https://drive.google.com/open?id=1XH_TivMI784Jee5XncA_bNum30m1CJ1juzxyiWh8_dY"
+                target="_blank"
+                >View all user stories ></a
+              >
+            </div>
+          <div class="container pb-5">
+            <div class="row">
+              <div class="col">
+                <img
+                  src="img/hangry-user-stories-all.png"
+                  alt="new user stories"
+                  class="img-fluid pt-3 box-shadow mb-2"
+                />
+              </div>
+            </div>
+          </div>
+      </div>
+      <div class="container user-flows my-5">
+        <div class="col">
+          <h3 class="bg-light text-dark pt-5 pb-3 user-flows">User Flows</h3>
+        </div>
+          <div class="col-md-6 pb-3 mb-5">
+            <p class="pt-3">
+              Based on research, competitive analysis, and user stories, user
+              flows were then developed in order to map out the ideal user
+              experience. These were first sketched out by hand and then
+              digitally.
+            </p>
+            <a
+              href="https://drive.google.com/open?id=1amspd4mZSNMyT0K2st_r43QsqCVI2jYO"
+              target="_blank"
+              >View all user flows ></a
+            >
+          </div>
+        <div class="container">
+          <div class="row">
+              <div class="col-md-6 my-3">
+                <img 
+                src="img/hangry-user-flow-submit.png" 
+                alt="user flow sketch" 
+                class="img-fluid box-shadow">
+              </div>
+              <div class="col-md-6 my-3">
+                <img 
+                src="img/hangry-user-flow-rewards.png" 
+                alt="digital user flow" 
+                class="img-fluid box-shadow">
+              </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 my-3">
+              <img src="img/hangry-user-flow-submit-digital.png"
+              alt="uploading and organizing user flow"
+              class="img-fluid box-shadow">
+            </div>
+            <div class="col-md-6 my-3">
+              <img src="img/hangry-user-flow-rewards-digital.png"
+              alt="create a project or folder user flow"
+              class="img-fluid box-shadow">
+            </div>
+          </div>
+        </div>  
+      </div>
+      <div class="container wireframes my-5">
+        <div class="col">
+          <h3 class="bg-light text-dark pt-5 pb-3 wireframes">Wireframes</h3>
+        </div>
+          <div class="col-md-6 pb-3 mb-5">
+            <p class="pt-3">
+              Referring back to the user flows, wireframes were created for each
+              task. Firstly, sketches were drawn of the initial design ideas and
+              then they were produced digitally. This was a continuous process
+              until all user flows had been successfully wireframed.
+            </p>
+            <a
+              href="https://drive.google.com/open?id=1Qt6cgNZQVS_N3eVdsLHOi9jlnQoAhVli"
+              target="_blank"
+              >View all wireframes ></a
+            >
+          </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 my-3">
+              <img 
+              src="img/sketch-wireframe-map-details-submit.png" 
+              alt="sketch wireframes" 
+              class="img-fluid box-shadow">
+            </div>
+            <div class="col-md-6 my-3">
+                <img 
+                src="img/sketch-wireframe-submit.png" 
+                alt="sketch wireframes" 
+                class="img-fluid box-shadow w-75">
+              </div>
+          </div>
+          <div class="row my-5">
+              <div class="col-md-4 my-3">
+                <img 
+                src="img/hangry-digital-wireframe-main.png" 
+                alt="digital wireframe of main page" 
+                class="img-fluid box-shadow">
+              </div>
+              <div class="col-md-4 my-3">
+                  <img 
+                  src="img/hangry-digital-wireframe-popup.png" 
+                  alt="digital wireframe of restaurant page" 
+                  class="img-fluid box-shadow">
+              </div>
+              <div class="col-md-4 my-3">
+                <img 
+                src="img/hangry-digital-wireframe-details.png" 
+                alt="digital wireframe of restaurant page" 
+                class="img-fluid box-shadow">
+              </div>
+            </div>
+        </div>
+      </div>
+      <div class="container">
+          <div class="col">
+            <h3 class="bg-light text-dark pt-5 pb-3 mt-3">Round 1 - Usability Testing</h3>
+          </div>
+      </div>
+          <div class="container">
+            <div class="col-md-6">
+              <p>
+                  At this point, I decided to do an initial round of usability testing with the app’s wireframes to ensure that I was going in the correct direction and to ensure a good user experience. Firstly, I used “Marvel” to test 5 different scenarios for the user to go through: 1. Learn about the app, go through onboarding, and sign up or log in; 2. Search for a restaurant called “Don’t Look Back” and go to the restaurant page; 3. Submit restaurant details; 4. Go to the rewards points page; 5. Review notification and submit details.
+              </p>
+              <a
+                href="https://docs.google.com/document/d/1ruo6zEMs2LpvlOnDomuQDXZgEHye0aGJNtYduHCO0L0/edit?usp=sharing"
+                target="_blank"
+                >View full round 1 usability test results ></a
+                >
+            </div> 
+            <div class="container">
+              <div class="row">
+                  <div class="col-md-6">
+                    <h4 class="pt-5"><strong>Key Insights:</strong></h4>
+                    <ul>
+                      <li>
+                          Overall, the users found most scenarios to be very easy. The biggest thing that needs to be addressed is the icon for the Rewards page. 
+                      </li>
+                    </ul>
+                  </div>
+                <div class="col-md-6 mt-5">
+                  <img 
+                  src="img/1-round-usability-testing-wireframes.png" 
+                  alt="wireframe usability test result" 
+                  class="img-fluid box-shadow">
+                </div>
+              </div> 
+            </div>
+          </div>
+    </section>
+
+    <!-- Branding & Identity -->
+    <section id="branding-identity" class="bg-light text-muted py-5">
+      <div class="col">
+        <h1 class="bg-dark text-white py-4 text-sm-center">Branding & Identity</h1>
+      </div>
+      <div class="container">
+        <div class="col">
+          <h3 class="bg-light text-dark pt-5 pb-3 mt-3">Branding</h3>
+        </div>
+        <div class="col-md-6">
+          <p>
+              After wireframes had been created digitally, I began the process of creating 
+              a brand concept for this app. I first started with mind-mapping & word 
+              association to begin the branding process which ultimately led to the name 
+              as well as some logo concepts. I then developed a moodboard to further the 
+              branding process and to help with the look and feel of the app.
+          </p>
+        </div>
+      </div>
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-md-6 py-1">
+            <img
+              src="img/Mindmapping_word-association.png"
+              alt="mind mapping image"
+              class="img-fluid"
+            />
+          </div>
+          <div class="col-md-6 py-1">
+            <img
+              src="img/hangry-moodboard.png"
+              alt="moodboard"
+              class="img-fluid"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="col-md-8 py-5">
+          <p>
+              Based off of the moodboard, I developed some logo ideas and went through 
+              some iterations. Initially, I had 2 logo ideas, the wolf and a crab. I 
+              ultimately decided to A/B test these concepts to see what other potential users preferred 
+              based on the concept and brand idea. The wolf had a slight preference 
+              overall at 58% so from there I continued iterating on the wolf logo concept. 
+          </p>
+        </div>
+      </div>
+        <div class="container">
+          <div class="row">
+          <div class="col pt-3">
+            <img
+              src="img/logo-ab-testing.png"
+              alt="logo ab testing"
+              class="img-fluid"
+            />
+          </div>
+        </div>
+        <div class="container">
+            <div class="col-md-8 py-5">
+              <p>
+                Once that process had been completed, I developed an overall app 
+                color scheme. The last step in the branding process was the creation 
+                of a style guide that included detailed information about the logo, 
+                color scheme, typography, UI elements, and overall brand look and feel. 
+              </p>
+            </div>
+          </div>
+        <div class="row">
+          <div class="col-md-6 pt-5">
+            <img
+              src="img/hangry-style-guide-1.png"
+              alt="style guide"
+              class="img-fluid box-shadow"
+            />
+          </div>
+          <div class="col-md-6 pt-5">
+            <img 
+              src="img/hangry-style-guide-5.jpg"
+              alt="brand style guide"
+              class="img-fluid box-shadow"
+            />
+          </div>
+          <div class="container text-md-center pt-5 mb-5">
+            <a
+              href="https://sketch.cloud/s/PlLWr/p/style-guide"
+              target="_blank"
+              >See full style guide ></a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="col">
+          <h3 class="bg-light text-dark pt-5 pb-3">High Fidelity Mockups</h3>
+        </div>
+        <div class="col-md-6">
+          <p>
+              Once I had a clearer idea of the product’s identity, I started the process of building out the high fidelity mockups so that I could ultimately develop a prototype and begin usability testing which could then lead to further iterations and improvements.
+          </p>
+          <a
+            href="https://sketch.cloud/s/PlLWr/p/1st-iteration-mockups"
+            target="_blank"
+            >See original mockups ></a
+          >
+        </div>
+      </div>
+        <p class="text-md-center mt-5">
+          Original mockups and iterations of login screen
+        </p>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <img src="img/1st-iteration-login.png"
+              alt="original login mockup"
+              class="img-fluid box-shadow mt-1">
+            </div>
+            <div class="col-md-4">
+              <img src="img/4th-iteration-login.png"
+              alt="4th iteration of login page mockup"
+              class="img-fluid box-shadow mt-1">
+            </div>
+            <div class="col-md-4">
+              <img src="img/5th-iteration-login.png"
+              alt="5th iteration of login page mockup"
+              class="img-fluid box-shadow mt-1">
+            </div>
+          </div>  
+        </div>
+        <p class="text-md-center mt-5">
+          Original mockups and iterations of restaurant popup
+        </p>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <img src="img/1st-iteration-popup.png"
+              alt="original popup mockup"
+              class="img-fluid box-shadow mt-1">
+            </div>
+            <div class="col-md-4">
+              <img src="img/4th-iteration-popup.png"
+              alt="4th iteration of popup mockup"
+              class="img-fluid box-shadow mt-1">
+            </div>
+            <div class="col-md-4">
+              <img src="img/5th-iteration-popup.png"
+              alt="5th iteration of popup mockup"
+              class="img-fluid box-shadow mt-1">
+            </div>
+          </div>  
+        </div>
+        <p class="text-md-center mt-5">
+          Original mockups and iterations of the restaurant details screen
+        </p>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <img src="img/1st-iteration-details.png"
+              alt="original details mockup"
+              class="img-fluid box-shadow mt-1 mx-auto d-block">
+            </div>
+            <div class="col-md-6">
+              <img src="img/5th-iteration-details.png"
+              alt="5th iteration of details mockup"
+              class="img-fluid box-shadow mt-1 mx-auto d-block">
+            </div>
+          </div>
+        </div>  
+        <p class="text-md-center mt-5">
+            Original mockups and iterations of submit screen
+          </p>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4">
+                <img src="img/1st-iteration-wait.png"
+                alt="original submit screen mockup"
+                class="img-fluid box-shadow mt-1">
+              </div>
+              <div class="col-md-4">
+                <img src="img/2nd-iteration-wait.png"
+                alt="2nd iteration of submit screen mockup"
+                class="img-fluid box-shadow mt-1">
+              </div>
+              <div class="col-md-4">
+                <img src="img/5th-iteration-wait.png"
+                alt="5th iteration of submit screen mockup"
+                class="img-fluid box-shadow mt-1">
+              </div>
+            </div>  
+          </div>
+      </div>
+    </section>
+
+    <!-- Prototypes & Testing -->
+    <section id="prototypes-testing" class="bg-light text-muted py-5">
+      <div class="col">
+        <h1 class="bg-dark text-white py-4 text-sm-center">Prototypes & Testing</h1>
+      </div>
+      <div class="container">
+          <div class="col">
+            <h3 class="bg-light text-dark pt-5 pb-3 mt-3">Testing</h3>
+          </div>
+          <div class="col-md-6">
+            <p>
+              Once the high fidelity mockups were complete, the testing commenced so 
+              that design iterations and changes could be implemented based off of 
+              those results.. Tools such as InVision, Maze, and Usability Hub were 
+              utilized for usability testing as well as A/B testing in order to ensure 
+              an ideal user experience was achieved.             
+            </p>
+          </div>
+      </div>
+      <div class="container">
+        <div class="row py-5"> 
+          <div class="col">
+            <img src="img/hangry-testing-results.png" 
+            alt="hangry testing results" 
+            class="img-fluid mx-auto d-block mt-1">
+          </div>
+        </div>
+        <div class="col-md-6 mx-auto">
+            <p class="text-md-left mx-auto mb-5">
+              <strong>User testing results:</strong><br>
+              <br>To begin testing, I conducted a number of remote and in-person usability 
+              tests and as well as deployed Maze tests. Overall, users thought that the app was easy and straightforward with only a few 
+              recommendations:
+            </p>
+            <ul>
+              <li>
+                It seems that the “filter” process is something that needs to be slightly 
+                adjusted - possibly bringing more attention to that CTA by increasing 
+                the size or weight of the icon 
+              </li>
+              <li>
+                Adjust bottom toolbar to bring more attention to search icon so that users 
+                can easily access and it is clear
+              </li>
+              <li>
+                Bring more attention to "more details" area of restaurant pop up information
+              </li>
+            </ul>
+        </div>
+      </div>
+      <div class="container">
+        <div class="col">
+          <h3 class="bg-light text-dark pt-5 pb-3">Testing Results</h3>
+        </div>
+        <div class="col-md-6">
+          <p>
+            The biggest takeaway from testing was the ease at which users were having, which
+            was very encouraging! The app itself seems very user-friendly and familiar to users.
+            The biggest challenge is to ensure users are motivated to utilize the full functionality
+            of the app as its success relies on user input. It is crucial to ensure that users
+            are aware of the benefits and rewards of submitting information into the app.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Conclusion -->
+    <section id="conclusion" class="bg-light text-muted py-5">
+        <div class="col">
+          <h1 class="bg-dark text-white py-4 text-sm-center">Conclusion</h1>
+        </div>
+        <div class="container">
+            <div class="col">
+              <h3 class="bg-light text-dark pt-5 pb-3 mt-3">Final Touches</h3>
+            </div>
+            <div class="col-md-6">
+              <p>
+                  Based on all of the usability and A/B testing, additional changes to the layout of each page were made based on those results.
+              </p>
+              <a
+              href="https://invis.io/3WQ9JVTNAYC"
+              target="_blank"
+              class="btn btn-outline-info"
+              type="button"
+            >
+              View Prototype
+            </a>
+            </div>
+          </div>
+          <div class="container">
+            <div class="col py-5">
+              <img src="img/Hangry-mockup-iphone.png" 
+                alt="final welcome page mockup" 
+                class="img-fluid mx-auto d-block">
+            </div>
+          </div>
+          <div class="container py-5">
+            <div class="col-md-8 mx-auto text-md-center">
+              <h3 class="bg-light text-dark pt-5 pb-3">LESSONS LEARNED</h3>
+            </div>
+            <div class="col-md-8 mx-auto">
+              <p>
+                <strong>What worked?</strong>  Iterating and in-person/remote usability testing. Based on feedback and usability test results, further changes became clear and improvements were made to further enhance the overall user experience of the app.
+              </p>
+              <p>
+                <strong>What didn't work?</strong> Maze testing. Given that there are multiple ways to use this sort of an app, it was difficult to create a “mission” and have there be a successful ending point when in reality this is not necessary for this app. I was able to still use the results as I analyzed users click patterns and heat maps, which showed that users were actually completing the mission successfully.
+              </p>
+              <p>
+                <strong>Doubts going into the project:</strong> That I would be the only one that would find an app like this helpful.
+              </p>
+              <p>
+                <strong>Most surprise by:</strong> Based on survey results, an overwhelming majority of those surveyed listed live wait time as a feature that they wished their current restaurant app had.
+              </p>
+              <p>
+                <strong>What would I have done differently if given more time?</strong> I would redo the Maze test and try to find more participants to do in-person/remote usability testing. Maze allowed for saving time, however, the results were a bit skewed and with doing in-person or remote usability testing, I am better able to get direct user feedback rather than asking users at the end of a Maze test to voluntarily provide feedback.
+              </p>
+              <p>
+                <strong>What I learned:</strong> That not only myself, but others think that this app would be useful. The feedback was very positive and now find myself wishing that this were a real app.
+              </p>
+              <p>
+                <strong>Future use:</strong> Producing projects based on real-life frustrations or coming up with something that is lacking in your own life can make for a successful project, as it becomes clear that you are not the only one wishing this were an actual app. This is also backed up by the fact that Yelp just purchased the NoWait at for $40 million!!
+              </p>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="mouse">
+                  <a href="#top">
+                      <img src="img/mouse-icon.svg"
+                      alt="mouse icon"
+                      class="img-fluid mt-5">
+                  </a>
+              </div>
+            </div>  
+          </div>  
+    </section>
+    
+
+    <!-- bottom section -->
+    <section id="bottom-section" class="bg-light text-muted py-3">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center py-5 text-dark">
+            <h1>Thanks for stopping by!</h1>
+            <a
+              href="mailto:csryan418@gmail.com"
+              target="_blank"
+              class="btn btn-outline-info px-4 m-5"
+            >
+              Get In Touch
+            </a>
+            <a
+              href="img/Caroline-Cutten-Resume.pdf"
+              target="_blank"
+              class="btn btn-outline-info px-4 m-5"
+            >
+              My Resume
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer id="main-footer" class="bg-dark pt-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 d-flex justify-content-start row-hl">
+              <p>
+                &copy; 2019 | Designed &amp; Developed,
+                with care, by Carrie <s>Ryan</s> Cutten
+              </p>
+            </div>
+            <div class="col-md-6 d-flex justify-content-end row-hl">
+              <ul class="list-inline-flex">
+                <li class="list-inline-item">
+                  <a href="mailto:csryan418@gmail.com" target="_blank">
+                    <i class="fas fa-envelope text-info" aria-hidden="true"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="https://github.com/csryan418" target="_blank">
+                    <i class="fab fa-github text-info" aria-hidden="true"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a
+                    href="https://www.linkedin.com/in/carolinesryan/"
+                    target="_blank"
+                  >
+                    <i class="fab fa-linkedin text-info" aria-hidden="true"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="https://twitter.com/Carrie__Ryan" target="_blank">
+                    <i class="fab fa-twitter-square text-info" aria-hidden="true"></i>
+                  </a>
+                </li>
+              </ul>
+          </div>
+        </div>
+      </footer>
+ 
+    <script
+      src="http://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+      integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+      crossorigin="anonymous"
+    ></script>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-131087142-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-131087142-1');
+    </script>
+
+
+  </body>
+</html>
